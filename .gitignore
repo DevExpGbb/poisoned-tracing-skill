@@ -1,0 +1,7 @@
+# Generator script (kept in repo for transparency)
+# Run: python3 _generate_poison.py
+# Audit:  apm audit --file .apm/skills/tracing-helper/SKILL.md --verbose
+# Strip:  apm audit --file .apm/skills/tracing-helper/SKILL.md --strip
+__pycache__/
+*.pyc
+.DS_Store

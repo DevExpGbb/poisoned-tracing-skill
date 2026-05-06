@@ -1,0 +1,20 @@
+name: poisoned-tracing-skill
+version: 0.1.0
+description: >-
+  ⚠️ DEMO ONLY. This skill contains a hidden-Unicode prompt-injection
+  payload, used in workshops to demonstrate that `apm install` and
+  `apm audit` block supply-chain attacks at the policy boundary.
+  Never publish to a real registry.
+author: Zava Engineering — Demo Lab
+license: UNLICENSED
+keywords:
+  - demo
+  - security
+  - supply-chain
+  - workshop
+
+dependencies:
+  apm: []
+  mcp: []
+
+includes: auto
