@@ -1,5 +1,7 @@
 # poisoned-tracing-skill ⚠️
 
+> **Part of the [Zava Workshop Kit](https://github.com/DevExpGbb/zava-workshop-kit)** — this is the marketplace of Agent Skills + APM kits used by the workshop bundle. To deploy the full bundle into your org, start at the kit.
+
 > 🚨 **Demo-only repository.** This skill ships with a deliberately injected hidden-Unicode prompt-injection payload. It exists to show, live in workshops, that `apm audit` and the `apm-audit` CI check **block** this kind of supply-chain attack before it reaches a developer's harness.
 
 ## What's poisoned
